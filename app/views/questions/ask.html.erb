@@ -1,0 +1,9 @@
+<div class=banner>
+<h1>Stupid Coaching</h1>
+</div>
+<h2>Ask your coach anything</h2>
+
+<form action="/answer" method="GET">
+  <input type="text" name="question_got" value="<%= params[:question_got] %>" class = "blank">
+  <input type="submit" value="Ask!" class = "button">
+</form>
